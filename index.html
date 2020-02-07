@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+/*.fa-spin-hover:hover {
+  -webkit-animation: fa-spin 1s  ;
+  -moz-animation: fa-spin 1s  ;
+  -o-animation: fa-spin 1s  ;
+  animation: fa-spin 1s  ;
+  transform: rotate(360deg);
+  color: red;
+  }*/
+  .fa-spin-hover i {
+  	color: #C0C0C0;
+  	-webkit-transition:  -webkit-transform 0.5s ease-out;
+  	-moz-transition: -moz-transform 0.5s ease-out;
+  	-o-transition:  -o-transform 0.5s ease-out;
+  	-ms-transition:  -ms-transform 0.5s ease-out;
+  }
+  .fa-spin-hover:hover i{
+  	-webkit-transform: rotateZ(360deg);
+  	-moz-transform: rotateZ(360deg);
+  	-o-transform: rotateZ(360deg);
+  	-ms-transform: rotateZ(360deg);
+  	transform: rotateZ(360deg);
+  	color: #1E90FF;
+  }
+  .fa-spin-hover:hover {
+  	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  	/*border:1px solid #1E90FF;*/
+  	color: #1E90FF;
+  }
+  .fa-spin-hover {
+  	/*border:1px solid #ffffff;*/
+  }
+
+  .mainColor{
+  	background-color: #1E90FF;
+  }
+
+  .iconColor{
+  	color: #1E90FF;
+  }
+  body { background: #F5F5F5; }
+
+
+</style>
+</head>
+<body>
+	<div class="container">
+
+		<!-- 导航 -->
+
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top mainColor" >
+			<a class="navbar-brand" href="#">
+				<img src="images/bootstrap-solid.svg" width="30" height="30" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">一部</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							二部
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">一组</a>
+							<a class="dropdown-item" href="#">二组</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+
+				</ul>
+
+			</div>
+		</nav>
+
+
+
+		<div class="jumbotron">
+			<h1 class="display-4">Hello, world!</h1>
+			<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+			<hr class="my-4">
+			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+			<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+		</div>
+
+
+
+		<div class="p-3" style="background-color: #ffffff">
+
+			<h4><i class="fa fa-users iconColor" aria-hidden="true" ></i>&nbsp; 一部</h4>
+			<hr class="my-2">
+
+			<div class="row">
+				<div class="col-sm fa-spin-hover pt-3">
+					<ul class="list-unstyled">
+						<li class="media">
+							<i class="fa fa-recycle fa-3x mr-3" aria-hidden="true"></i> 
+							<div class="media-body">
+								<h6 class="mt-0 mb-1">核心系统</h6>
+								系统主要用于管理服务器的各个模块
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-sm fa-spin-hover pt-3">
+					<ul class="list-unstyled">
+						<li class="media">
+							<i class="fa fa-wpexplorer fa-3x mr-3" aria-hidden="true"></i> 
+							<div class="media-body">
+								<h6 class="mt-0 mb-1">核心系统</h6>
+								系统主要用于管理服务器的各个模块
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-sm fa-spin-hover pt-3">
+					<ul class="list-unstyled">
+						<li class="media">
+							<i class="fa fa-superpowers fa-3x mr-3" aria-hidden="true"></i> 
+							<div class="media-body">
+								<h6 class="mt-0 mb-1">核心系统</h6>
+								系统主要用于管理服务器的各个模块
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-sm fa-spin-hover pt-3">
+					<ul class="list-unstyled">
+						<li class="media">
+							<i class="fa fa-cogs fa-3x mr-3" aria-hidden="true"></i> 
+							<div class="media-body">
+								<h6 class="mt-0 mb-1">核心系统</h6>
+								系统主要用于管理服务器的各个模块
+							</div>
+						</li>
+
+					</ul>
+				</div>
+
+
+			</div>
+
+
+
+
+			<div class="row mt-3">
+				<div class="col-sm fa-spin-hover pt-3">
+					<ul class="list-unstyled">
+						<li class="media">
+							<i class="fa fa-recycle fa-3x mr-3" aria-hidden="true"></i> 
+							<div class="media-body">
+								<h6 class="mt-0 mb-1">核心系统</h6>
+								系统主要用于管理服务器的各个模块
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-sm fa-spin-hover pt-3">
+					<ul class="list-unstyled">
+						<li class="media">
+							<i class="fa fa-wpexplorer fa-3x mr-3" aria-hidden="true"></i> 
+							<div class="media-body">
+								<h6 class="mt-0 mb-1">核心系统</h6>
+								系统主要用于管理服务器的各个模块
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-sm fa-spin-hover pt-3">
+					<ul class="list-unstyled">
+						<li class="media">
+							<i class="fa fa-superpowers fa-3x mr-3" aria-hidden="true"></i> 
+							<div class="media-body">
+								<h6 class="mt-0 mb-1">核心系统</h6>
+								系统主要用于管理服务器的各个模块
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-sm fa-spin-hover pt-3">
+					<ul class="list-unstyled">
+						<li class="media">
+							<i class="fa fa-cogs fa-3x mr-3" aria-hidden="true"></i> 
+							<div class="media-body">
+								<h6 class="mt-0 mb-1">核心系统</h6>
+								系统主要用于管理服务器的各个模块
+							</div>
+						</li>
+
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+		<div class="p-3" style="background-color: #ffffff">
+
+			<h4><i class="fa fa-users iconColor" aria-hidden="true" ></i>&nbsp; 二部</h4>
+			<hr class="my-2">
+
+			<div class="row">
+				<div class="col-sm fa-spin-hover pt-3">
+					<ul class="list-unstyled">
+						<li class="media">
+							<i class="fa fa-recycle fa-3x mr-3" aria-hidden="true"></i> 
+							<div class="media-body">
+								<h6 class="mt-0 mb-1">核心系统</h6>
+								系统主要用于管理服务器的各个模块
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-sm fa-spin-hover pt-3">
+					<ul class="list-unstyled">
+						<li class="media">
+							<i class="fa fa-wpexplorer fa-3x mr-3" aria-hidden="true"></i> 
+							<div class="media-body">
+								<h6 class="mt-0 mb-1">核心系统</h6>
+								系统主要用于管理服务器的各个模块
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-sm fa-spin-hover pt-3">
+					<ul class="list-unstyled">
+						<li class="media">
+							<i class="fa fa-superpowers fa-3x mr-3" aria-hidden="true"></i> 
+							<div class="media-body">
+								<h6 class="mt-0 mb-1">核心系统</h6>
+								系统主要用于管理服务器的各个模块
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-sm fa-spin-hover pt-3">
+					<ul class="list-unstyled">
+						<li class="media">
+							<i class="fa fa-cogs fa-3x mr-3" aria-hidden="true"></i> 
+							<div class="media-body">
+								<h6 class="mt-0 mb-1">核心系统</h6>
+								系统主要用于管理服务器的各个模块
+							</div>
+						</li>
+
+					</ul>
+				</div>
+
+
+			</div>
+
+
+
+
+			<div class="row mt-3">
+				<div class="col-sm fa-spin-hover pt-3">
+					<ul class="list-unstyled">
+						<li class="media">
+							<i class="fa fa-recycle fa-3x mr-3" aria-hidden="true"></i> 
+							<div class="media-body">
+								<h6 class="mt-0 mb-1">核心系统</h6>
+								系统主要用于管理服务器的各个模块
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-sm fa-spin-hover pt-3">
+					<ul class="list-unstyled">
+						<li class="media">
+							<i class="fa fa-wpexplorer fa-3x mr-3" aria-hidden="true"></i> 
+							<div class="media-body">
+								<h6 class="mt-0 mb-1">核心系统</h6>
+								系统主要用于管理服务器的各个模块
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-sm fa-spin-hover pt-3">
+					<ul class="list-unstyled">
+						<li class="media">
+							<i class="fa fa-superpowers fa-3x mr-3" aria-hidden="true"></i> 
+							<div class="media-body">
+								<h6 class="mt-0 mb-1">核心系统</h6>
+								系统主要用于管理服务器的各个模块
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-sm fa-spin-hover pt-3">
+					<ul class="list-unstyled">
+						<li class="media">
+							<i class="fa fa-cogs fa-3x mr-3" aria-hidden="true"></i> 
+							<div class="media-body">
+								<h6 class="mt-0 mb-1">核心系统</h6>
+								系统主要用于管理服务器的各个模块
+							</div>
+						</li>
+
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+	</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
